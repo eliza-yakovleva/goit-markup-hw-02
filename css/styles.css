@@ -94,7 +94,7 @@ address {
     background-color: #404BBF;
 }
 
-.header3_do {
+.header_DO {
     font-family: "Roboto", sans-serif;
     color:#2E2F42;
     font-weight: 500;
@@ -102,6 +102,7 @@ address {
     line-height: 24px;
     letter-spacing: 0.4px;
 }
+
 .text_do {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -114,7 +115,7 @@ address {
     background-color: #F4F4FD;
 }
 
-.header2_team {
+.header_TEAM {
     font-family: "Roboto", sans-serif;
     color:#2E2F42;
     font-weight: 700;
@@ -125,10 +126,11 @@ address {
     text-transform: capitalize;
 }
 
-.header3_team {
+.header_team {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2e2f42;
+    background-color: #FFFFFF;
     font-size: 20px;    
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -145,7 +147,7 @@ address {
     text-align: center;
 }
 
-.header2_portfolio {
+.header_PORTFOLIO{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #2E2F42;
@@ -157,7 +159,7 @@ address {
     text-transform: capitalize;
 }
 
-.header3_portfolio {
+.header_portfolio {
     font-weight: 500;
     color: #2e2f42;
     font-size: 20px;
