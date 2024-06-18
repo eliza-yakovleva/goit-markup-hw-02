@@ -23,7 +23,7 @@ p {
     text-decoration: none;
 }
 
-.nav_main a {
+.nav_main {
     color: #2E2F42;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -45,7 +45,7 @@ p {
 address {
     font-style: normal;    
 }
-.contacts a {
+.contacts {
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -71,7 +71,7 @@ address {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
 }
@@ -90,54 +90,97 @@ address {
 .button:hover {
     background-color: #404BBF;
 }
-.button:foucs {
+.button:focus {
     background-color: #404BBF;
 }
 
-h2 {
+.header_do {
     font-family: "Roboto", sans-serif;
+    color:#2E2F42;
+    font-weight: 500;
+    font-size: 20px;    
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.text_do {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.header2_team {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color:#2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-align: center;
+    text-transform: capitalize;
 }
 
-h3{
+.header3_team {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 20px;    
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
-
-.team {
-    background-color: #F4F4FD;
-}
-
-.team h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    color: #2e2f42;
     font-size: 20px;    
     line-height: 24px;
     letter-spacing: 0.4px;
     text-align: center;
 }
 
-.team p {
+.text_team {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
     text-align: center;
 }
-
+.header2_portfolio {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header3_portfolio {
+    font-weight: 500;
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+.text_portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
 ul {
     list-style-type: none;
 }
 
-footer {
+.footer {
     color:#F4F4FD;
     background-color: #2E2F42;
+}
+.text_footer {
+    font-family: "Roboto", sans-serif;
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-align: center;
 }
