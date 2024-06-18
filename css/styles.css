@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color:#434455;
     background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -38,7 +38,11 @@ p {
     color: #404bbf;
 }
 
-.contacts a {
+.nav_main a:focus {
+    color: #404bbf;
+}
+
+#contacts a {
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -48,9 +52,13 @@ p {
     text-decoration: none;
     font-style: normal;
 }
-.contacts a:hover {
+#contacts a:hover {
     color: #404bbf;
 }
+#contacts a:focus {
+    color: #404bbf;
+}
+
 
 .hero {
     color:#FFFFFF;
