@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+#logo{
+    color:#2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+}
+
+a {
+    color: #2E2F42;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contacts a {
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.hero {
+    color:#FFFFFF;
+    background-color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+button {
+    color:#FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;    
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;    
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.team p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    color:#F4F4FD;
+    background-color: #2E2F42;
+}
