@@ -42,7 +42,10 @@ p {
     color: #404bbf;
 }
 
-#contacts a {
+address {
+    font-style: normal;    
+}
+.contacts a {
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -50,19 +53,21 @@ p {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
-    font-style: normal;
 }
-#contacts a:hover {
-    color: #404bbf;
-}
-#contacts a:focus {
+
+.contacts a:hover {
     color: #404bbf;
 }
 
-
+.contacts a:focus {
+    color: #404bbf;
+}
 .hero {
-    color:#FFFFFF;
     background-color: #2E2F42;
+}
+
+.hero .header_hero {
+    color:#FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -71,7 +76,7 @@ p {
     text-align: center;
 }
 
-button {
+.button {
     color:#FFFFFF;
     background-color: #4D5AE5;
     font-family: "Roboto",sans-serif;
@@ -79,6 +84,14 @@ button {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.64px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+.button:foucs {
+    background-color: #404BBF;
 }
 
 h2 {
