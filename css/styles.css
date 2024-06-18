@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -12,16 +12,18 @@ p {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.logo{
-    color:#2E2F42;
+.logo {
+    color:#4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-a {
+.nav_main a {
     color: #2E2F42;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -29,6 +31,11 @@ a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.nav_main a:hover {
+    color: #404bbf;
 }
 
 .contacts a {
@@ -38,7 +45,13 @@ a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    text-decoration: none;
+    font-style: normal;
 }
+.contacts a:hover {
+    color: #404bbf;
+}
+
 .hero {
     color:#FFFFFF;
     background-color: #2E2F42;
