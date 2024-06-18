@@ -93,18 +93,21 @@ address {
 .button:focus {
     background-color: #404BBF;
 }
-
-.header_DO {
+.do {
+    background-color: #FFFFFF;
+}
+._header_do {
     font-family: "Roboto", sans-serif;
     color:#2E2F42;
     font-weight: 500;
     font-size: 20px;    
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .text_do {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -147,7 +150,7 @@ address {
     text-align: center;
 }
 
-.header_PORTFOLIO{
+._header_portfolio{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #2E2F42;
