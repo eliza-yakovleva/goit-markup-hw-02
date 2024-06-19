@@ -96,7 +96,7 @@ address {
 .do {
     background-color: #FFFFFF;
 }
-._header_do {
+.header_do {
     font-family: "Roboto", sans-serif;
     color:#2E2F42;
     font-weight: 500;
