@@ -118,7 +118,7 @@ address {
     background-color: #F4F4FD;
 }
 
-.header_TEAM {
+._header_team {
     font-family: "Roboto", sans-serif;
     color:#2E2F42;
     font-weight: 700;
@@ -133,11 +133,11 @@ address {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2e2f42;
-    background-color: #FFFFFF;
     font-size: 20px;    
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .text_team {
@@ -150,7 +150,7 @@ address {
     text-align: center;
 }
 
-._header_portfolio{
+._header_portfolio {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #2E2F42;
@@ -165,6 +165,7 @@ address {
 .header_portfolio {
     font-weight: 500;
     color: #2e2f42;
+    background-color: #FFFFFF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
