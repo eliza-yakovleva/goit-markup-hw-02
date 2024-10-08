@@ -35,22 +35,28 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-nav-list a:hover {
+.header-nav-list:hover {
+    color: #404bbf;
+}
+.header-nav-list:focus {
     color: #404bbf;
 }
 
-.address {
+
+.adress {}
+
+.address-link {
     color: #434455;
     line-height: 150%;
     letter-spacing: 0.02em;
     font-style: normal;
 }
 
-.address a:hover {
+.address-link:hover {
     color: #404bbf;
 
 }
-.address a:focus {
+.address-link:focus {
     color: #404bbf;
 }
 
