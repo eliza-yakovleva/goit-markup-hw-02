@@ -43,13 +43,14 @@ ul {
 }
 
 
-.adress {}
+.address {
+    font-style: normal;
+}
 
 .address-link {
     color: #434455;
     line-height: 150%;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .address-link:hover {
