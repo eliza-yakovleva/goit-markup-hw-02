@@ -1,6 +1,6 @@
 body {
-    font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -35,23 +35,24 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.header-nav-list a:hover {
+    color: #404bbf;
+}
+
+.address a:hover {
+    color: #404bbf;
+
+}
+
 .address a {
     color: #434455;
     line-height: 150%;
     letter-spacing: 0.02em;
-
-}
-
-.header-nav-list a:hover {
-    color: #404BBF;
-}
-
-.address a:hover {
-    color: #404BBF;
+    font-style:normal;
 }
 
 .address a:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .hero {
@@ -69,6 +70,7 @@ ul {
 
 .hero-button {
     color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -78,6 +80,10 @@ ul {
 }
 
 .hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -108,6 +114,7 @@ ul {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
 .team-card {
@@ -137,6 +144,7 @@ ul {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
 .portfolio-title {
